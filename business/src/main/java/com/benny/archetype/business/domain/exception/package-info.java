@@ -1,6 +1,6 @@
 /**
  * 这里放和异常相关的模型<br/>
- * 异常码需要继承通用异常码接口, {@link com.benny.archetype.common.framework.lang.exception.CommonErrorCode}<br/>TODO
+ * 异常码需要继承通用异常码接口, {@link com.benny.archetype.common.framework.lang.exception.CommonErrorCode}<br/>
  * 自定义异常需要继承通用异常接口, {@link com.benny.archetype.common.framework.lang.exception.CommonException}<br/>
  * 非特别定制可以直接继承通用异常类, {@link com.benny.archetype.common.framework.lang.exception.GenericException}<br/>
  * 如果想使用快速构造异常可以继承通用快速异常类, 但是会丢失异常堆栈信息, {@link com.benny.archetype.common.framework.lang.exception.FastGenericException}<br/>
