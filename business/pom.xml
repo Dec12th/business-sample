@@ -34,7 +34,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.benny.archetype</groupId>
+            <groupId>${parent.groupId}</groupId>
             <artifactId>business-api</artifactId>
             <version>${parent.version}</version>
         </dependency>
