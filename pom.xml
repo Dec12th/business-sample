@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>business-api</module>
-        <module>business</module>
+        <module>business-sample-api</module>
+        <module>business-sample-core</module>
     </modules>
 
     <properties>

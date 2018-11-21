@@ -9,24 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>business</artifactId>
+    <artifactId>business-sample-core</artifactId>
     <version>${parent.version}</version>
 
     <properties>
         <spring.boot.version>1.5.17.RELEASE</spring.boot.version>
         <spring.cloud.version>Edgware.RELEASE</spring.cloud.version>
-        <springboot.mainClass>com.benny.archetype.business.BusinessStarter</springboot.mainClass>
+        <springboot.mainClass>${package}.Starter</springboot.mainClass>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-undertow</artifactId>
+            <groupId>com.benny.archetype</groupId>
+            <artifactId>business-sample-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -35,9 +31,13 @@
         </dependency>
 
         <dependency>
-            <groupId>${parent.groupId}</groupId>
-            <artifactId>business-api</artifactId>
-            <version>${parent.version}</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
         </dependency>
 
         <dependency>
