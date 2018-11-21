@@ -37,7 +37,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.benny.archetype</groupId>
+                <groupId>com.benny</groupId>
                 <artifactId>common</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>

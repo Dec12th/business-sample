@@ -29,7 +29,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.benny.archetype</groupId>
+            <groupId>com.benny</groupId>
             <artifactId>common</artifactId>
         </dependency>
 
