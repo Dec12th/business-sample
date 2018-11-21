@@ -1,6 +1,6 @@
 package com.benny.archetype.business.api.request;
 
-import com.benny.archetype.common.net.domain.BaseRequest;
+import com.benny.common.net.domain.BaseRequest;
 import lombok.Data;
 
 /**

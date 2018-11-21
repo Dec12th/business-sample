@@ -1,7 +1,7 @@
 package com.benny.archetype.business.api.result;
 
 import com.benny.archetype.business.api.info.UserInfo;
-import com.benny.archetype.common.net.domain.BaseResult;
+import com.benny.common.net.domain.BaseResult;
 import lombok.Data;
 
 /**
